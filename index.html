@@ -18,45 +18,13 @@ img {
 
 <p style="text-align:center;font-family:helvetica;">Work in progress.</p>
  
- <div class="tab">
-  <button class="tablinks" onclick="clickHandle(event, 'Research')">Research</button>
-  <button class="tablinks" onclick="clickHandle(event, 'Publications')">Publications</button>
-  <button class="tablinks" onclick="clickHandle(event, 'Random')">Random</button>
+<div class="tabs">
+	<ul class="tab-links">
+		<li class="active"><a href="Research">Research</a></li>
+		<li><a href="Publications">Publications</a></li>
+		<li><a href="Random">Random</a></li>
+	</ul>
 </div>
-
-<div id="Research" class="tabcontent">
-    <p style="font-family:helvetica;">Work in progress</p>
-  </div>
-
-  <div id="Publications" class="tabcontent">
-    <p style="font-family:helvetica;">Work in progress</p>
-  </div>
-
-  <div id="Random" class="tabcontent">
-    <p style="font-family:helvetica;">Work in progress</p>
-</div>
-
-<script>
-function clickHandle(evt, animalName) {
-  let i, tabcontent, tablinks;
-
-  // This is to clear the previous clicked content.
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-
-  // Set the tab to be "active".
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-
-  // Display the clicked tab and set it to active.
-  document.getElementById(animalName).style.display = "block";
-  evt.currentTarget.className += " active";
-}
-</script>
      
 <img src="images/IMG_20210313_121046.jpeg"
      height="400">
