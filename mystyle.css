@@ -1,0 +1,26 @@
+.paginate {
+    display: inline-block;
+    padding: 2px;
+    margin: 2px;
+}
+
+.paginate a {
+    text-decoration: none;
+    color: black;
+    float: left;
+    padding: 10px 15px;
+  border-radius: 10px;
+}
+
+.paginate a.active {
+    background-color: lightblue;
+    color: lightblue;
+}
+
+.paginate a:hover:not(.active) {
+    background-color: orange;
+}
+
+.center {
+    text-align: right;
+}
