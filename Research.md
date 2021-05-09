@@ -2,11 +2,7 @@
      <head>
 <link rel="stylesheet" href="mystyle.css">
 <style>
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 * {
  font-family: helvetica;
 }
