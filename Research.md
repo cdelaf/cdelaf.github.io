@@ -20,7 +20,7 @@
     <a href="Random" class="w3-bar-item">Random</a>
   </div>
 <main>
-    <div class="images/Pintor_cumbre.png"></div>
+    <div class="images/Pintor_cumbre.jpg"></div>
 </main>
 
 <h2 style="text-align:left;font-family:helvetica;"> Research</h2>
